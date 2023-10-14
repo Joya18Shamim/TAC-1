@@ -1,0 +1,467 @@
+body, ul {
+    /* width:-content; */
+    background-color: #1d1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar */
+
+.herosection {
+    margin: 0 auto;
+    padding: 10%;
+    width: 70%;
+    height: fit-content;
+    /* background-color: #ff7a7a; */
+    color: #fff;
+    /* background-color: #5d2b9d; */
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 300px; /* Set a minimum height or adjust as needed */
+}
+
+@media (max-width: 768px) {
+    .herosection {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding: 30px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .Tac {
+        display: none;
+    }
+    
+    .herosection {
+        font-size: 16px; /* Further adjust font size for even smaller screens */
+        padding: 20px; /* Further adjust padding for even smaller screens */
+    }
+}
+
+
+/* Style for the headline */
+.headline {
+    font-size: 58px;
+    font-weight: Medium;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the description */
+.description {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the button */
+/* .button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* Center the button horizontally */
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cta {
+    margin: 0 auto;
+    width: 150px;
+    height: 36px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 0 20px 0 0; 
+    text-decoration: none;
+    border-radius: 37px;
+    background: linear-gradient(
+      90deg,
+      #5d2b9d 0%,
+      #9747ff 100%
+    );  
+    color: #e4e2dd;
+  }
+  
+  .cta:hover {
+    border-radius: 37px;
+    background: linear-gradient(90deg, #5d2b9d 0%, #9747ff 100%);
+    box-shadow: 0px 0px 9px 4px rgba(139, 125, 216, 0.25),
+      0px 0px 4px -2px rgba(255, 255, 255, 0.5) inset;
+  }
+  
+  .cta a {
+    padding-left: 30px;
+    color: #fff;
+    /* background-color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    /* letter-spacing: -0.14px; */
+    text-decoration: none;
+  }
+
+.cta svg {
+  margin-left: 8px; 
+}
+
+.cta a:hover {
+  content: "Let's TAC"; /* Change text on hover */
+}
+
+
+
+/*------------------------------------------ Gallery------------------------------------------ */
+
+/* Define styles for the ShowSection container */
+.ShowSection{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+/* Style the Tac text inside ShowSection */
+.Tac {
+    left: 0px;
+    top: 650px;
+    position: absolute;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size:4600%;
+    font-family: "Cubao Free";
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: -1;
+}
+
+
+.gallery{
+    margin: 0 auto;
+    width: 65%;
+    height: 800px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+/* Style the Rectangle80 image */
+
+
+.approach-section {
+    margin: 0 auto;
+    padding: 10%;
+    width: 50%;
+    height: fit-content;
+    color: #fff;
+    /* background-color: #9747ff; */
+    text-align: center;
+}
+
+.appTitle {
+    font-size: 45px;
+    font-weight: Medium;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the description */
+.appDesc {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.appSubSec{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firSubSec{
+    width: 35%;
+    font-size: 30px;
+    color: #9747ff;
+    font-weight: bold;
+}
+
+.secSubSec{
+    width:65%;
+    display: flex;
+    border-left: 1px solid grey;
+    padding-left: 20px;
+    /* justify-content:center; */
+    align-items: center;  
+}
+
+
+.offer-section {
+    background-color: white;
+    margin: 0 auto;
+    padding: 5%;
+    height: fit-content;
+    color: #fff;
+    text-align: center;
+}
+
+.offTitle {
+    margin: 0 auto;
+    color:black;
+    text-align: center;
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.offDesc1 {
+    /* width:70%; */
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.offDesc2{
+    color:black;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.offBoxes{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.offBox{
+    color:whitesmoke;
+    margin: 20px 30px;  
+    padding: 30px 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #1d1c1c;
+    border-radius: 25px;
+}
+
+.obHeader {
+    color:white;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: top; */
+}
+
+.obhTitle{
+    width:80%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.obhTitle a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 510;
+    font-size: 28px;
+    text-align: left;
+    
+}
+
+.obhArrow{
+    width:50px;
+    height: 50px;
+    color:#5d2b9d;
+    border-radius:25px;
+    background-color: #9747ff;
+}
+
+.expMore{
+    margin-top: 50px;
+    color:#1d1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:Medium;
+}
+
+.expMore a{
+    text-decoration: none;
+}
+
+.tagLine{
+    /* height:100px; */
+    background-color: #4E4F59;
+    padding: 2% 0%;
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tagLine a{
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+/* Style the dropdown button */
+/* .dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  /* Style the dropdown content (hidden by default)
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  } */
+  
+  /* Style the dropdown links */
+  /* .dropdown-content p {
+    padding: 30px 16px;
+    margin: 0;
+  } */
+  
+  /* .close-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+   */
+  /* Change color on hover */
+  /* .close-btn:hover {
+    background-color: #d32f2f;
+  } */
+  
+  /* Show the dropdown content when the button is clicked */
+  /* .show {
+    display: block;
+
+  } */
+  
+
+  /* .dropbtn i {
+    color: #d32f2f;
+    font-size: 12px;
+    margin-left: 5px; 
+} */
+
+/* .dropbtn img{
+    width:10px;
+} */
+
+
+.endF{
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Vertically center items */
+    align-items: center; /* Horizontally center items */
+}
+
+.whyFaq{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.fqTitle a{
+    width:30%;
+    color: white;
+    /* padding: 10%; */
+    font-size: 80px;
+}
+
+.fqTitle {
+    /* width:40%; */
+    color: white;
+    padding: 10%;
+    font-size: 30px;
+}
+
+.fqDesc{
+    width: 30%;
+    color: white;
+    /* background-color: aqua; */
+    padding: 10% 5%;
+    display: table-column;
+    /* align-items: left; */
+    /* justify-content: center; */
+}
+
+
+.fqd{
+    /* width:80%; */
+    font-size: 20px;
+    display: flex-start;
+    height: 30px;
+    border-radius: 15px;
+    color: #4E4F59;
+    /* background-color: #5d2b9d; */
+    margin-bottom: 30px;
+}
+
+.fqEnd{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: blue; */
+    color:white;
+}

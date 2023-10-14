@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        // Use JavaScript to load the header from header.html
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+    <script src="../SCRIPT/navbar.js"></script>
+    <script src="../SCRIPT/main.js"></script>
+
+
+    <div class="herosection">
+        <section class="top-section">
+            <div class="headline">Let TAC tackle<br> your business problems</div>
+            <div class="description">Marketing and Design Solutions for industry experts </div>
+            <div class="desc">who want services with the premium essence as their brand.</div>
+            <div class="cta">
+                <a href="contact.html">Let's Talk</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                    <path d="M1 1L5 5L1 9" stroke="white" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </div>
+        </section>
+    </div>
+
+    <div class="ShowSection">
+        <div class="Tac"> TAC</div>
+        <div class="gallery"></div>
+    </div>
+
+
+    <div class="approach-section">
+        <div class="appTitle">TAC-tical approach to provide solutions tailored to your needs.</div>
+        <div class="appDesc">Our approach ensures that we understand your objectives</div>
+        <div class="appDesc">Create a strategic plan, execute effectively,and</div>
+        <div class="appDesc">continuously optimize for the best results.</div>
+        <br><br><br>
+        <div class="appSubSec">
+            <div class="firSubSec">Discovery and Strategy</div>
+            <div class="secSubSec">We understand your business and challenges, researching your audience, competitors,
+                and trends, then crafting a clear, customized strategy.
+            </div>
+        </div>
+
+        <div class="appSubSec">
+            <div class="firSubSec">Design and Development</div>
+            <div class="secSubSec">After planning, our teams create digital assets for a seamless user experience,
+                combining aesthetics and functionality for diverse audiences.
+            </div>
+        </div>
+
+        <div class="appSubSec">
+            <div class="firSubSec">Implementation and Marketing</div>
+            <div class="secSubSec">With assets ready, we execute strategies, monitoring and optimizing campaigns across
+                SEO, PPC, content, and email marketing for effective reach.
+            </div>
+        </div>
+
+        <div class="appSubSec">
+            <div class="firSubSec">Analysis and Optimization</div>
+            <div class="secSubSec">Core to our approach is continuous improvement through data analysis, making
+                data-driven refinements for better results, and ensuring transparency with regular reports.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offer-section">
+        <div class="offTitle">WHAT WE OFFER</div>
+        <div class="offDesc1">Enhancing online presence, making it more appealing and user-friendly, Creating<br>
+            compelling strategies to connect you with your target audience and engaging them<br>
+            on various platforms also building a strong online community</div>
+        <div class="offDesc2">We refine your brand's image, ensuring it leaves <br> a memorable impact on potential
+            customers.
+        </div>
+
+        <div class="offBoxes">
+            <div class="offBox">
+                <div class="obHeader">
+                    <div class="obhTitle"><a>Website Design and Development</a><br><br>
+                        Visually appealing and user-friendly online spaces that showcase your business
+                        effectively
+                    </div>
+                    <div class="obhDesc"></div>
+                    <div class="obhArrow"><a href=""></a></div>
+                </div>
+            </div>
+            <div class="offBox">
+                <div class="obHeader">
+                    <div class="obhTitle"><a>Digital Marketing</a><br><br>
+                        Strategically promoting your brand across channels, ensuring maximum exposure and engagement
+                        with your target audience.
+                    </div>
+                    <div class="obhDesc"></div>
+                    <div class="obhArrow"><a href=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offBoxes">
+            <div class="offBox">
+                <div class="obHeader">
+                    <div class="obhTitle"><a>Brand Identity</a><br><br>
+                        Shaping your brand's unique identity, ensuring it stands out and resonates with your audience,
+                        leaving a lasting impression.
+                    </div>
+                    <div class="obhDesc"></div>
+                    <div class="obhArrow"><a href=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offBoxes">
+            <div class="offBox">
+                <div class="obHeader">
+                    <div class="obhTitle"><a>Social Media Management</a><br><br>
+                        Managing your social media presence, crafting engaging content and fostering meaningful
+                        interactions to boost online influence.
+                    </div>
+                    <div class="obhDesc"></div>
+                    <div class="obhArrow"><a href=""></a></div>
+                </div>
+            </div>
+            <div class="offBox">
+                <div class="obHeader">
+                    <div class="obhTitle"><a>Content Creation</a><br><br>
+                        Creative content fuels and deliver compelling narratives and visuals that captivate your
+                        audience and drive engagement.
+                    </div>
+                    <div class="obhDesc"></div>
+                    <div class="obhArrow"><a href=""></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="expMore"><a href="">Explore More Services</a></div>
+    </div>
+
+    <div class="tagLine"><a>BILLIONAIRE, GENIUS, PLAYBOY and PHILANTHROPIST</a><br>
+        needs a suit too that is customizable and upgrades with time.</div>
+
+
+
+    <div class="endF">
+        <div class="whyFaq">
+            <div class="fqTitle"><a>Why us,<br> you ask?</a><br>and other FAQs...</div>
+            <div class="fqDesc">
+                <div class="fqd">
+
+                    <!-- <div class="dropdown">
+                    <button class="dropbtn" id="dropdownBtn" onclick="toggleDropdown()">
+                        What’s so Unique about you?
+                        <i><img id="dropdownIcon" src="../Assets/dd.png"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <p>This is a paragraph in the dropdown.</p>
+                        <button class="close-btn" id="closeButton" style="display: none;"
+                            onclick="closeDropdown()">Close</button>
+                    </div>
+                </div> -->
+                </div>
+                <div class="fqd">What’s so Unique about you?</div>
+                <div class="fqd">What’s so Unique about you?</div>
+                <div class="fqd">What’s so Unique about you?</div>
+                <div class="fqd">What’s so Unique about you?</div>
+                <div class="fqd">What’s so Unique about you?</div>
+            </div>
+        </div>
+        <div class="fqEnd">Still Got Questions?</div>
+        <div class="cta">
+            <a href="contact.html">Contact Us</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                <path d="M1 1L5 5L1 9" stroke="white" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="samWeb"></div>
+
+        <div class="w3-content" style="max-width:1200px">
+            <img class="mySlides" src="../Assets/1.jpg  " style="width:100%">
+            <img class="mySlides" src="../Assets/1.jpg" style="width:100%">
+            <img class="mySlides" src="../Assets/1.jpg" style="width:100%">
+
+            <div class="w3-row-padding w3-section">
+                <div class="w3-col s4">
+                    <img class="demo w3-opacity" src="../Assets/1.jpg" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="w3-col s4">
+                    <img class="demo w3-opacity" src="../Assets/1.jpg" style="width:100%;display:none"
+                        onclick="currentDiv(2)">
+                </div>
+                <div class="w3-col s4">
+                    <img class="demo w3-opacity" src="../Assets/1.jpg" style="width:100%;display:none"
+                        onclick="currentDiv(3)">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
