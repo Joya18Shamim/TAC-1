@@ -546,6 +546,58 @@ body, ul {
     left: 761px;
 }
 
+
+/* dropdown */
+/* Style the sidenav container */
+.sidenav {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0%;
+    left: 10%;
+    /* background-color: #111; */
+    overflow-x: hidden;
+   
+    
+}
+
+/* Style the sidenav button */
+.sidenav button {
+    text-decoration:none;
+    font-size: 18px;
+    color: #4E4F59;
+    border: none;
+    background: none;
+    width: 100%;
+    /* text-align: left; */
+    cursor: pointer;
+    padding: 13px 5px;
+    font-size: 20px;
+}
+
+/* On hover, change button text color and show the dropdown container */
+.sidenav button:hover {
+    color: #f1f1f1;
+}
+
+/* Dropdown container (hidden by default) */
+.dropdown-container {
+    display: none;
+    /* background-color: #262626; */
+    padding: 10px; /* Add padding for a better look */
+}
+
+/* On hover, show the dropdown content */
+.sidenav button:hover + .dropdown-container {
+    display:block;
+}
+
+
+
+  
+  
+
+
 /*featured articles */
 
 #featured-articles{
@@ -557,7 +609,7 @@ body, ul {
     /* justify-content: center; */
     align-content: center; 
     height: 100%; 
-    margin:  0 auto;
+    margin:  10% auto;
     padding: 10%;
    
 }
@@ -579,6 +631,7 @@ body, ul {
     /* font-family: Aileron; 
     font-weight: 900; 
     word-wrap: break-word */
+    /* margin-top: 15%; */
 }
 .view-all{
     left: 0px;
@@ -635,6 +688,7 @@ body, ul {
     width: 578px;
     left: 236px; 
     top: 9px;
+    /* margin-top: 15%; */
 }
 .arrow2{
     width: 106px;
@@ -701,32 +755,7 @@ body, ul {
     transform: translate(-50%, -50%);
     background-size: 100% 100%;
 } */
-.box {
-    /* height: 754px; */
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 70%;
-    height: 400px;
-    position: relative;
-    /* left: 50%; */
-    top: 50%;
-    background-image: url(../Assets/1.jpg);
-    /* transform: translate(-50%, -50%);  */
-    /* background-size: 100% 100%; */
-    box-shadow: 1px 2px 5px 5px white;
-    animation: slider 10s  linear; 
-} 
-@keyframes slider{
-    0%{
-        background-image: url(../Assets/1.jpg);}
-    20%{
-        background-image: url(../Assets/logo.jpg);
-    }
-    40%{background-image: url(../Assets/2.jpg);}
-    60%{background-image: url(../Assets/1.jpg);}
-    80%{background-image: url(../Assets/cr.jpg);}
-    95%{background-image: url(../Assets/2.jpg);}
-}
+
 /* footer */
 
 /* .box-footer{
